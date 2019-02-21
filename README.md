@@ -23,9 +23,6 @@ Humidity (%) vs. Latitude
 Cloudiness (%) vs. Latitude
 
 Wind Speed (mph) vs. Latitude
-#
-Your final notebook must:
-#
 
 # Findings
 
