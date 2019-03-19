@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lattitude vs. X</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css"
+</head>
+
+<body>
+
+
+    <ul class="nav">
+        <div class= "button1">
+            <li class="nav-item">
+                <a type="button" class="nav-link active btn-lg" href="index.html">Lattitude</a>
+              </li>
+        </div>
+
+
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a tabindex="-1" href="humidity.html">Humidity</a></li>
+                <li><a tabindex="-2" href="cloud.html">Cloud</a></li>
+                <li><a tabindex="-3" href="temp.html">Temperature</a></li>
+                <li><a tabindex="-4" href="wind.html">Wind</a></li>
+            </div>
+          </div>
+
+
+              <li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+              </li>
+    </ul>
+
+  <header>
+
+    <br></br>
+  </header>
+  <br></br>
+
+  <div class="container">
+
+    <div class="row">
+        <div class="col-md-3">
+          <h1><p>Summary: latitude vs. X </p></h1>
+          <br></br>
+
+          <h3>
+              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+                  accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
+                  500 cities.</p>
+       
+                  <br></br>
+      
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+                    source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+                    any trends.</p>
+          </h3>
+
+        </div>
+
+
+      <div class="col-md-9">
+        <div class="container">
+        <h1><p>Visualizations</p></h1>
+        <br></br>
+
+          <div class="row">
+
+              <div class="col-md-6">
+                  <a href="humidity.html">
+                    <img class="img-responsive" src="assets/images/Humidity.png"/>
+                  </a>
+              </div>
+        
+        
+              <div class="col-md-6">
+                <a href="cloud.html">
+                    <img class="img-responsive"  src="assets/images/Cloudness.png"/>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-6">
+                  <a href="temp.html">
+                    <img class="img-responsive" src="assets/images/Temperature.png"/>
+                  </a>
+                </div>
+                    <div class="col-md-6">
+                      <a href="wind.html">
+                        <img class="img-responsive"  src="assets/images/Wind.png"/>
+                      </a>
+                </div>
+              </div>
+      </div>
+  </div>
+
+  <div class="container">
+
+      <div class="row2">
+          <div class="col-md-12">
+          <br></br>
+          <br></br>
+
+
+  <footer>
+      <div class="footer">Copyright &copy; Peter Brito 2019</div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
