@@ -25,17 +25,12 @@ Cloudiness (%) vs. Latitude
 Wind Speed (mph) vs. Latitude
 
 # Findings
-Dashboard Website:
+
+Online Dashboard Website, that contains all the finds of Research.
+
 https://piterbrito.github.io/Extracting_Current-Weather_Dashboard/
 
 
-Plots:
-![x](images/TemperatureInWorldCities.png)
 
-![x](images/HumidityInWorldCities.png)
-
-![x](images/CloudnessInWorldCities.png)
-
-![x](images/WindInWorldCities.png)
 
 
