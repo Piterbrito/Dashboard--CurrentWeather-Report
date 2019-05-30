@@ -1,5 +1,10 @@
 # Weather-Forecasting-Analysis-
-Python 3, Pandas, Numpy, Open Weather Map APIs
+
+
+Online Dashboard Website, that contains all the finds of Research.
+
+https://piterbrito.github.io/Extracting_Current-Weather_Dashboard/
+
 
 # Background
 
@@ -26,9 +31,7 @@ Wind Speed (mph) vs. Latitude
 
 # Findings
 
-Online Dashboard Website, that contains all the finds of Research.
-
-https://piterbrito.github.io/Extracting_Current-Weather_Dashboard/
+In progress 
 
 
 
